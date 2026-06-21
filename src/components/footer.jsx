@@ -2,39 +2,39 @@ import "../styles/footer.css";
 
 const Footer = () => {
   return (
-    <footer
-      className="footer"
-      aria-label="Footer"
-    >
+    <footer className="footer">
       <div className="footer-content">
         <h3 className="footer-logo">
           Go Business
         </h3>
 
-        <nav className="footer-links">
+        <nav
+          className="footer-links"
+          aria-label="Footer"
+        >
           <a
-            href="#"
+            href="/about"
             className="footer-link"
           >
             About
           </a>
 
           <a
-            href="#"
+            href="/contact"
             className="footer-link"
           >
             Contact
           </a>
 
           <a
-            href="#"
+            href="/privacy"
             className="footer-link"
           >
             Privacy
           </a>
 
           <a
-            href="#"
+            href="/terms"
             className="footer-link"
           >
             Terms

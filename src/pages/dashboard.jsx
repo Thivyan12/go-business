@@ -112,7 +112,7 @@ const handleSortChange = async (e) => {
               </div>
             ) : (
               <>
-                <section className="dashboard-overview" role="region" aria-label="Overview metrics">
+                <section className="dashboard-overview" aria-label="Overview metrics">
                   <h2 className="overview-title">
                     Overview
                   </h2>

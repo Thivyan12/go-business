@@ -59,7 +59,7 @@ function ReferralView() {
 
   if (loadingState) {
     return (
-      <div className="loader-detail-container" role="loading">
+      <div className="loader-detail-container">
         <Oval
           height={40}
           width={40}

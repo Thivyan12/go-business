@@ -37,16 +37,13 @@
 }
 
 .footer-link {
-  border: none;
-  background: transparent;
-
-  cursor: pointer;
+  text-decoration: none;
 
   color: #6b7280;
   font-size: 13px;
   font-family: "DM Sans";
 
-  padding: 0;
+  transition: color 0.2s ease;
 }
 
 .footer-link:hover {
