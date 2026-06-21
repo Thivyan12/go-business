@@ -1,0 +1,190 @@
+.login-container {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.login-page {
+  width: 100%;
+  max-width: 420px;
+
+  background-color: #ffffff;
+
+  padding-top: 10px;
+  padding-bottom: 30px;
+
+  border-radius: 14px;
+
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+
+  display: flex;
+  justify-content: center;
+}
+
+.login-card {
+  width: 85%;
+}
+
+.logo {
+  color: #588ce0;
+  font-size: 1.7rem;
+  font-weight: 700;
+  font-family: "Albert Sans";
+
+  margin-bottom: 12px;
+}
+
+.tagline {
+  color: #6b7280;
+  font-size: 0.95rem;
+  font-family: "Albert Sans";
+
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-family: "DM Sans";
+
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 100%;
+
+  padding: 12px;
+
+  font-family: "DM Sans";
+  font-size: 0.95rem;
+
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+
+  outline: none;
+
+  transition: border-color 0.2s ease;
+}
+
+.input-group input:focus {
+  border-color: #5b5ce9;
+}
+
+.signin-btn {
+  width: 100%;
+
+  padding: 12px;
+
+  border: none;
+  border-radius: 6px;
+
+  background-color: #5b5ce9;
+  color: #ffffff;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s ease;
+}
+
+.signin-btn:hover {
+  background-color: #4a4bd8;
+}
+
+.signin-btn:active {
+  transform: scale(0.98);
+}
+
+.error-message {
+  color: #dc2626;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  margin-bottom: 16px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .login-page {
+    max-width: 420px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-container {
+    padding: 24px;
+  }
+
+  .login-page {
+    max-width: 400px;
+  }
+
+  .login-card {
+    width: 88%;
+  }
+
+  .logo {
+    font-size: 1.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .login-container {
+    padding: 16px;
+  }
+
+  .login-page {
+    width: 100%;
+    max-width: 100%;
+
+    padding-top: 8px;
+    padding-bottom: 24px;
+
+    border-radius: 12px;
+  }
+
+  .login-card {
+    width: 90%;
+  }
+
+  .logo {
+    font-size: 1.6rem;
+  }
+
+  .tagline {
+    font-size: 0.9rem;
+    margin-bottom: 24px;
+  }
+
+  .input-group {
+    margin-bottom: 16px;
+  }
+
+  .input-group input {
+    padding: 10px;
+  }
+
+  .signin-btn {
+    padding: 10px;
+  }
+
+  .error-message {
+    font-size: 13px;
+  }
+}

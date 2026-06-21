@@ -1,0 +1,214 @@
+.referral-detailed-view {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+
+.referral-detailed-view-container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #6366f1;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.referral-detailed-view-title {
+  margin-top: 18px;
+  margin-bottom: 8px;
+
+  font-size: 28px;
+  font-family: "Albert Sans";
+  font-weight: 700;
+
+  color: #0f172a;
+}
+
+.referral-detailed-view-subtitle {
+  margin-top: 0;
+
+  color: #64748b;
+  font-size: 15px;
+  font-family: "DM Sans";
+}
+
+.referral-detailed-card {
+  width: 45%;
+
+  margin-top: 32px;
+
+  background-color: #ffffff;
+
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+
+  padding: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.referral-detailed-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-top: 2px;
+  padding-bottom: 13px;
+
+  border-bottom: 1px solid #edf2f7;
+}
+
+.referral-detailed-card-header h2 {
+  font-size: 26px;
+  font-family: "DM Sans";
+  color: #0f172a;
+}
+
+.service-badge {
+  background-color: #eef2ff;
+  color: #6366f1;
+
+  padding: 8px 16px;
+
+  border-radius: 999px;
+
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "DM Sans";
+}
+
+.referral-detail-row {
+  display: flex;
+  align-items: center;
+
+  padding: 20px 0;
+
+  border-bottom: 1px solid #edf2f7;
+}
+
+.referral-detail-row:last-child {
+  border-bottom: none;
+}
+
+.referral-detail-row span {
+  width: 180px;
+  flex-shrink: 0;
+
+  color: #64748b;
+
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "DM Sans";
+
+  letter-spacing: 1px;
+}
+
+.referral-detail-row strong {
+  color: #0f172a;
+
+  font-size: 16px;
+  font-family: "DM Sans";
+
+  word-break: break-word;
+}
+
+.loader-detail-container {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.referral-detail-error-container {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+  .referral-detailed-view-container {
+    width: 92%;
+  }
+
+  .referral-detailed-card {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .referral-detailed-view-container {
+    width: 94%;
+    padding: 30px 16px;
+  }
+
+  .referral-detailed-card {
+    width: 100%;
+  }
+
+  .referral-detailed-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .referral-detailed-view-title {
+    font-size: 26px;
+  }
+
+  .referral-detail-row span {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .referral-detailed-view-container {
+    width: 96%;
+    padding: 20px 12px;
+  }
+
+  .referral-detailed-view-title {
+    font-size: 24px;
+  }
+
+  .referral-detailed-view-subtitle {
+    font-size: 14px;
+  }
+
+  .referral-detailed-card {
+    width: 100%;
+    padding: 20px 16px;
+  }
+
+  .referral-detailed-card-header h2 {
+    font-size: 22px;
+  }
+
+  .service-badge {
+    font-size: 13px;
+  }
+
+  .referral-detail-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+
+    padding: 16px 0;
+  }
+
+  .referral-detail-row span {
+    width: auto;
+  }
+
+  .referral-detail-row strong {
+    font-size: 15px;
+  }
+}

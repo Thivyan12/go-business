@@ -1,0 +1,55 @@
+.referral-row {
+  display: flex;
+  align-items: center;
+  padding: 18px 24px;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.referral-row p {
+  flex: 1;
+  margin: 0;
+  font-family: "DM Sans";
+  font-size: 14px;
+  color: #334155;
+}
+
+.profit-value {
+  color: #6366f1 !important;
+  font-weight: 600;
+}
+
+.referral-row:hover {
+  background-color: #f8fafc;
+}
+
+.referral-row:last-child {
+  border-bottom: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .referral-row {
+    padding: 16px 20px;
+  }
+
+  .referral-row p {
+    font-size: 13px;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .referral-row {
+    min-width: 700px;
+    padding: 14px 16px;
+  }
+
+  .referral-row p {
+    min-width: 150px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+}
